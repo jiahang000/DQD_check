@@ -2,9 +2,6 @@
 Execute and View Data Quality Checks on OMOP CDM Database
 
 
-
-
-
 **Default DQD check(No new custom checks）:**
 1. Using csv file of OMOP_CDMv5.4 in CSV/Default.
 2. Using R code: R code/Exectute_DQD.R. 
@@ -16,7 +13,7 @@ Execute and View Data Quality Checks on OMOP CDM Database
 **DQD check (add Value_as_number check):**
 1. Using csv file in  CSV/Value_as_number.
 2. Using SQL query in SQL query/concept_numerical_statistics.sql
-3. Using R code in R code/Exectute_DQD.R and set sqlOnly <- True to get all the sql queries but not run the queries.
+3. Using R code in R code/Exectute_DQD.R and set 'sqlOnly <- True' to get all the sql queries but not run the queries.
    (The format for value_as_number check is different with other query check. To get more details, use measurement lab test details below.)
 
 
