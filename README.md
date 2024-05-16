@@ -22,8 +22,9 @@ Execute and View Data Quality Checks on OMOP CDM Database
 
 **Measurement lab test:**
 1. SQL query to get inofrmation for every lab test in SQL query/measurement_lab_test(without null).sql
-2. R code/measurement_lab_test.R : 1. get results of measurement_lab_test(without null).sql and save results as an Andromeda object.
-                                   2. calculate the following statistics for numerical values: min, 5th, 25th, 75th, and 95th percentiles, Median,
-                                      Mode, Standard deviation, Median absolute deviation, number_of_measurements, number_of_patients, number_of_visits,
-                                      percent_missing.
+2. R code/measurement_lab_test.R :
+   1. get results of measurement_lab_test(without null).sql and save results as an Andromeda object.
+   2. calculate the following statistics for numerical values: min, 5th, 25th, 75th, and 95th percentiles, Median,
+      Mode, Standard deviation, Median absolute deviation, number_of_measurements, number_of_patients, number_of_visits,
+      percent_missing.
    
